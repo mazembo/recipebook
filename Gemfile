@@ -1,3 +1,4 @@
+
 source 'http://rubygems.org'
 
 
@@ -45,3 +46,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise'
 gem 'paperclip'
 gem 'cocoon'
+gem 'rails_12factor', group: :production
+ruby '2.1.5'
