@@ -48,3 +48,13 @@ gem 'paperclip'
 gem 'cocoon'
 gem 'rails_12factor', group: :production
 ruby '2.1.5'
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.2'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'capybara', '~> 2.4.1'
+  gem 'database_cleaner'
+  gem 'shoulda-matchers', require: false
+end
